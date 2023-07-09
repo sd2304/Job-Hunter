@@ -1,0 +1,233 @@
+    <!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <title>Job Hunt</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   <meta name="robots" content="noindex, nofollow">
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/checkout/">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/checkout.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body class="bg-body-tertiary">
+    <header>
+      <div class="width-100">
+          <!------------NAVBAR STARTED------------>
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+              <div class="container-fluid">
+                  <a href="index.html"><img style="HEIGHT:100PX; WIDTH:100PX;" src="images\logo1.png"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                      aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="index.html"
+                                  style="position:relative;margin-left:84px;font-family:cursive;font-weight:bold;color:pink;padding:24px;text-align: center">
+                                  <i class="fa-solid fa-house"></i> Home</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#" id="register-link"
+                                  style="position:relative;margin-left:80px;font-family:cursive;font-weight:bold;color:pink;padding:24px;text-align: center">
+                                  <i class="fa-solid fa-user"></i> Register</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="#job" id="navbarDropdown" role="button"
+                                   aria-expanded="false"
+                                  style="position:relative;margin-left:80px;font-family:cursive;font-weight:bold;color:pink;padding:24px;text-align: center">
+                                  <i class="fa-solid fa-briefcase"></i> Jobs
+                              </a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link"
+                                  href="#contact"
+                                  style="position:relative;margin-left:80px;font-family:cursive;font-weight:bold;color:pink;padding:24px;text-align: center">
+                                  <i class="fa-solid fa-phone"></i>   Contact</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="width-25">
+                      <button type="button" class="btn btn-outline-secondary">
+                          <i class="fa fa-shopping-bag" aria-hidden="true"></i> Submit a Job</button>
+                      <button type="button" class="btn btn-outline-secondary">
+                          <i class="fa fa-pencil-square-o" aria-hidden="true"></i> Create Resume</button>
+                  </div>
+          </nav>
+          <!------------NAVBAR ENDED------------>
+          
+      </div>
+      </div>
+  </header>
+  <div class="container">
+    <div class="py-5 text-center">
+      <img style="margin: 20px;" src="images/register.png" alt="" width="72" height="57">
+      <h2>Register to avail our services</h2>
+      <span class="badge bg-primary rounded-pill">?</span>
+      <p class="lead"> The provided information must be authetic as this will be passed on to the companies !</p>
+    </div>
+
+    <div class="row g-5 d-flex align-items-center">
+      <div class="col-md-5 col-lg-4 order-md-last">
+      </div>
+      <div class="col-md-7 col-lg-8">
+        <h4 class="mb-3">Portfolio</h4>
+        <form class="needs-validation" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="password" class="form-label">Password</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">*</span>
+                <input type="password" class="form-control" id="password" placeholder="Password" required>
+              <div class="invalid-feedback">
+                  Your password is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="password2" class="form-label">Confirm Password</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">*</span>
+                <input type="password" class="form-control" id="password2" placeholder="Confirm Password" required>
+              <div class="invalid-feedback">
+                  Your password is required.
+                </div>
+                <div id="passwordError" style="margin: auto;color: crimson;">
+                  Your Passwords do not match
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for receiving job updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+              <div class="invalid-feedback">
+                Please enter your address.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Street">
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required>
+                <option value="">Choose...</option>
+                <option>India</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="state" class="form-label">State</label>
+              <select class="form-select" id="state" required>
+                <option value="">Choose...</option>
+                <option>Banglore</option>
+                <option>Delhi</option>
+                <option>Gujrat</option>
+                <option>Punjab</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <label for="zip" class="form-label">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+
+          <hr class="my-4">
+          </div>
+          </div>
+          <form class="card p-2">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Attach your Resume">
+              <button type="submit" class="btn btn-secondary">Submit</button>
+            </div>
+          </form>
+
+          <hr class="my-4">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="same-address">
+            <label class="form-check-label" for="same-address">I Agree to the terms and conditions.</label>
+          </div>
+          <hr class="my-4">
+          <button class="w-100 btn btn-primary btn-lg" type="submit">Register</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <footer class="my-5 pt-5 text-body-secondary text-center text-small">
+    <p class="mb-1">&copy; 2020–2023 Job Hunter</p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Privacy</a></li>
+      <li class="list-inline-item"><a href="#">Terms</a></li>
+      <li class="list-inline-item"><a href="#">Support</a></li>
+    </ul>
+  </footer>
+</div>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="checkout.js"></script>
+    <script src="index.js"></script></body>
+</html>
